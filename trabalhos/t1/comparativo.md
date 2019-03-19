@@ -3,23 +3,21 @@
 TOP500 & me: Comparativo de Arquiteturas Paralelas
 --------------------------------------------------
 
-Nome: < preencha seu nome aqui >
+Nome: < Luiz Gustavo Nunes >
 
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
-| Nome/Título                                               |                       |                 |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
+| Nome/Título                                               | Internet Company T AA1| Luiz Nunes's PC |
+| Imagem (foto, diagrama, screenshot, etc.)                 |                       |
 | Classificação de Flynn                                    |                       |                 |
-| Memória: compartilhada, distribuída ou ambas?             |                       |                 |
-| Número total de núcleos de processamento                  |                       |                 |
-| Fabricante e modelo do(s) processador(es)                 |                       |                 |
-| Frequência do(s) processador(es)                          |                       |                 |
-| Memória total                                             |                       |                 |
-| Tipo(s) de interconexão entre os núcleos/processadores    |                       |                 |
-| Desempenho Linpack                                        |                       |                 |
+| Memória: compartilhada, distribuída ou ambas?             |          ambas        |  compartilhada  |
+| Número total de núcleos de processamento                  |         79,520        |        8        |
+| Fabricante e modelo do(s) processador(es)                 |  	Xeon E5-2680v4 14C  |   AMD FX 8350   |
+| Frequência do(s) processador(es)                          |         2,4GHz        |      4,0GHz     |
+| Memória total                                             |       363,520 GB      |       16GB      |
+| Tipo(s) de interconexão entre os núcleos/processadores    |         10GB/s        |       2GB/s     |
+| Desempenho Linpack                                        |    1,477.92 TFlop/s   |   13.1887GFlops |        |
 
 ### Referências
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- ...
+- Guru 3d, The AMD 990FX Chipset, https://www.guru3d.com/articles-pages/amd-fx-8350-processor-review,4.html.
+- Tech Power UP, Linpack Xtreme, https://www.techpowerup.com/download/linpack-xtreme.
