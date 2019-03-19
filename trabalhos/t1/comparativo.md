@@ -16,7 +16,7 @@ Nome: < Luiz Gustavo Nunes >
 | Frequência do(s) processador(es)                          |         2,4GHz        |      4,0GHz     |
 | Memória total                                             |       363,520 GB      |       16GB      |
 | Tipo(s) de interconexão entre os núcleos/processadores    |         10GB/s        |       2GB/s     |
-| Desempenho Linpack                                        |    1,477.92 TFlop/s   |   13.1887GFlops |        |
+| Desempenho Linpack                                        |    1,477.92 TFlop/s   |   73.1887GFlops |        |
 
 ### Referências
 - Guru 3d, The AMD 990FX Chipset, https://www.guru3d.com/articles-pages/amd-fx-8350-processor-review,4.html.
