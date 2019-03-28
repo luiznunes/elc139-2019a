@@ -1,0 +1,3 @@
+Processador: AMD Fx-8350 8x4GHz
+Memória: 16Gb DDR3 1600MHz
+SO: Ubuntu x64 16.04 LTS
