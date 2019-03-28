@@ -1,5 +1,21 @@
-tool,nthreads,size,repetitions,usec
-Pthreads,1,1000000,2000,5227948
-Pthreads,2,500000,2000,2580534
-OpenMP,1,1000000,2000,5227948
-OpenMP,2,500000,2000,2580534
+,,,
+Vetor,Repetições,,
+500000,3000,,
+Threads,Tempo 1 thread,Tempo N threads,Speedup
+2,6488420,3177664,2.04
+4,6488420,1586008,4.09
+8,6488420,863088,7.52
+,,,
+Vetor,Repetições,,
+1000000,2000,,
+Threads,Tempo 1 thread,Tempo N threads,Speedup
+2,8843581,4499354,1.97
+4,8843581,2313797,3.82
+8,8843581,1308865,6.76
+,,,
+Vetor,Repetições,,
+2000000,4000,,
+Threads,Tempo 1 thread,Tempo N threads,Speedup
+2,35388292,17925168,1.97
+4,35388292,9331699,3.79
+8,35388292,6718201,5.27
