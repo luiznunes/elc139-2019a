@@ -49,13 +49,19 @@ int main(int argc, char *argv[])
 
   // compute frames
   double delta = Delta;
-  #pragma omp parallel for
-  for (int frame = 0; frame < frames; frame++) {
+  // int frame,row,col;
+  int frame;
+
+  // #pragma omp parallel for firstprivate(pic) private(frame,row,col)
+  #pragma omp parallel for shared(pic) private(frame)
+  for (frame = 0; frame < frames; frame++) {
     const double xMin = xMid - delta;
     const double yMin = yMid - delta;
     const double dw = 2.0 * delta / width;
+    
     for (int row = 0; row < width; row++) {
       const double cy = yMin + row * dw;
+      
       for (int col = 0; col < width; col++) {
         const double cx = xMin + col * dw;
         double x = cx;
