@@ -1,7 +1,7 @@
 #!/bin/sh
 
 input_file=$1'.cpp'
-output_file=$1
+output_file='./out/'$1
 omp=$2
 
 echo '***** building application *****'
@@ -12,4 +12,4 @@ else
 fi
 echo '***** application builded  *****'
 
-./$output_file 512 32 && ./$output_file 512 64 && ./$output_file 1024 32 && ./$output_file 1024 64
+$output_file 512 32 && $output_file 512 64 && $output_file 1024 32 && $output_file 1024 64
