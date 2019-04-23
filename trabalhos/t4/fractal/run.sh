@@ -1,8 +1,8 @@
 #!/bin/sh
 
-input_file='fractal1.cpp'
-output_file='fractal1'
-omp=true
+input_file=$1'.cpp'
+output_file=$1
+omp=$2
 
 echo '***** building application *****'
 if [ $omp = true ]; then

@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
   double delta = Delta;
   int frame;
 
-  #pragma omp parallel for schedule(static,8) shared(pic) private(frame)
+  #pragma omp parallel for schedule(dynamic,8) shared(pic) private(frame)
   for (frame = 0; frame < frames; frame++) {
     const double xMin = xMid - delta;
     const double yMin = yMid - delta;
