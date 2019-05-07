@@ -40,4 +40,6 @@ int main(int argc,char *argv[])
       printf("Enviei mensagem para processo %d...\n", dest);
    }
 
+   MPI_Finalize();
+
 }
