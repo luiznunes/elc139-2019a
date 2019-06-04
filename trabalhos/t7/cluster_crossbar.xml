@@ -1,7 +1,7 @@
-<?xml version='1.0'?>
+<?xml version="1.0"?>
 <!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
 <platform version="4.1">
     <zone id="AS0" routing="Full">
-        <cluster id="my_cluster" prefix="host-" suffix=".ufsm.br" radical="0-255" speed="1Gf" bw="125Mbps" lat="5us"/>
+        <cluster id="my_cluster" prefix="host-" suffix=".ufsm.br" radical="0-255" speed="5Gf" bw="1024Bps" lat="3000us"/>
     </zone>
 </platform>
