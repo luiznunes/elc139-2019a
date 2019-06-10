@@ -71,5 +71,5 @@ No seu repositório da disciplina, na pasta `trabalhos/t8`, crie um documento `E
 - [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)  
   Guia da NVIDIA sobre programação em CUDA.
   
-- [Experiência com grids, blocks e threads em CUDA](https://colab.research.google.com/drive/1uSTM6C0p4n4aAuvFksplqFxa4NG87rMp)
+- [Experiência com grids, blocks e threads em CUDA](https://colab.research.google.com/drive/1uSTM6C0p4n4aAuvFksplqFxa4NG87rMp)  
   Notebook no Google Colab com um programa que permite experimentos variando as dimensões de grids e blocos.
