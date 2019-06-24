@@ -21,7 +21,7 @@ O script deverá compilar o código usando make e depois executar o programa. Po
 
 ## Execução
 Os programas serão executados no cluster CDER da Georgia State University,
-O tempo será medido com o comando `/usr/bin/time -f%e` (ou equivalente no bash).
+O tempo será medido com o comando `/usr/bin/time -f%e` (ou equivalente no bash). A medição de tempo será inserida nos scripts de submissão de jobs após a entrega do trabalho.
 
 Somente alguns nós permitem executar um programa com CUDA. Os seguintes nós foram testados com sucesso: cder01 e cder02. Os nós cder27 e cder28 também possuem GPUs (veja especificações aqui: https://help.rs.gsu.edu/display/PD/CDER), mas aparentemente há restrições para alocá-los (submissão fica pendente). Para submeter um job em cder01, por exemplo, entre neste nó por ssh e submeta o script:
 ```
@@ -29,7 +29,7 @@ ssh cder01
 sbatch --nodelist=cder01 run-problem.sh
 ```
 
-Para calcular o speedup de cada problema resolvido, será feita uma média dos tempos. O número de rodadas poderá variar dependendo do problema (em geral, 3 rodadas), mas todas as equipes que resolverem um mesmo problema terão seus programas executados o mesmo número de vezes.
+Para calcular o speedup de cada problema resolvido, será feita uma média dos tempos de execução. O número de rodadas poderá variar dependendo do problema (em geral, 3 rodadas), mas todas as equipes que resolverem um mesmo problema terão seus programas executados o mesmo número de vezes.
 
 
 
