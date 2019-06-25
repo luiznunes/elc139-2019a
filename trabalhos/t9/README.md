@@ -12,7 +12,7 @@ No arquivo [problemset.pdf](http://lspd.mackenzie.br/marathon/17/problemset.pdf)
 
 ## Entrega
 
-No repositório de cada integrante da equipe, deve haver uma pasta `trabalhos/t9`. Dentro desta pasta, deve haver um pasta para cada problema resolvido, usando o nome **exato** do problema. Para cada problema, devem ser entregues 3 arquivos nomeados de acordo com o problema: um arquivo problema.zip com o código-fonte, um Makefile e um script run-problema.sh para submissão de job no SLURM  (**ubstitua `problema` pelo nome do problema**). 
+No repositório de cada integrante da equipe, deve haver uma pasta `trabalhos/t9`. Dentro desta pasta, deve haver um pasta para cada problema resolvido, usando o nome **exato** do problema. Para cada problema, devem ser entregues 3 arquivos nomeados de acordo com o problema: um arquivo problema.zip com o código-fonte, um Makefile e um script run-problema.sh para submissão de job no SLURM  (**substitua `problema` pelo nome do problema**). 
 
 Por exemplo, para entregar o problema `mandelbrot`, devem ser entregues os arquivos `mandelbrot.zip`, `Makefile` e `run-mandelbrot.sh`.
 
