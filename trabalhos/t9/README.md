@@ -12,7 +12,7 @@ No arquivo [problemset.pdf](http://lspd.mackenzie.br/marathon/17/problemset.pdf)
 
 ## Entrega
 
-No repositório de cada integrante da equipe, deve haver uma pasta `trabalhos/t9`. Dentro desta pasta, deve haver um pasta para cada problema resolvido, usando o nome **exato** do problema. Para cada problema, devem ser entregues 3 arquivos nomeados de acordo com o problema: um arquivo problema.zip com o código-fonte, um Makefile e um script run-problema.sh para submissão de job no SLURM  (substitua `problema` pelo nome do problema). 
+No repositório de cada integrante da equipe, deve haver uma pasta `trabalhos/t9`. Dentro desta pasta, deve haver um pasta para cada problema resolvido, usando o nome **exato** do problema. Para cada problema, devem ser entregues 3 arquivos nomeados de acordo com o problema: um arquivo problema.zip com o código-fonte, um Makefile e um script run-problema.sh para submissão de job no SLURM  (**ubstitua `problema` pelo nome do problema**). 
 
 Por exemplo, para entregar o problema `mandelbrot`, devem ser entregues os arquivos `mandelbrot.zip`, `Makefile` e `run-mandelbrot.sh`.
 
@@ -26,7 +26,7 @@ O tempo será medido com o comando `/usr/bin/time -f%e` (ou equivalente no bash)
 Somente alguns nós permitem executar um programa com CUDA. Os seguintes nós foram testados com sucesso: cder01 e cder02. Os nós cder27 e cder28 também possuem GPUs (veja especificações aqui: https://help.rs.gsu.edu/display/PD/CDER), mas aparentemente há restrições para alocá-los (submissão fica pendente). Para submeter um job em cder01, por exemplo, entre neste nó por ssh e submeta o script:
 ```
 ssh cder01
-sbatch --nodelist=cder01 run-problem.sh
+sbatch --nodelist=cder01 run-problema.sh
 ```
 
 Para calcular o speedup de cada problema resolvido, será feita uma média dos tempos de execução. O número de rodadas poderá variar dependendo do problema (em geral, 3 rodadas), mas todas as equipes que resolverem um mesmo problema terão seus programas executados o mesmo número de vezes.
