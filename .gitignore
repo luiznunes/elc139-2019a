@@ -1,5 +1,10 @@
-trabalhos/*/out
+trabalhos/t*[1-9]/out
 trabalhos/t7/Sim*
+**/tmp*
 trabalhos/**/smpitmp*
 **/draft/
 **/*.o
+**/*.zip
+**/md5_*
+trabalhos/t10/teste
+trabalhos/t10/output-files/*
